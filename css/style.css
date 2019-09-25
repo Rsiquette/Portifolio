@@ -1,0 +1,57 @@
+  html, body{
+    height:100%;
+    margin: 0;
+    padding:0;
+    background-color: white;
+}
+  .banner{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .banner h1{
+    color: white;
+    margin: 0;
+    padding: 2.25em 0 0 0;
+    clear: both;
+  }
+
+  .banner p{
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .banner a{
+    background-color: white;
+
+  }
+  
+  .tagline{
+    font-weight: 100;
+    margin: 0.5em 0 1em 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .banner_btn{
+    color: rgb(76, 60, 221);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .banner  a  p{
+    background-color: white;
+    width:100px;
+    padding: 0.75em 0;
+    margin-left: auto;
+    margin-left: auto;
+ 
+}
