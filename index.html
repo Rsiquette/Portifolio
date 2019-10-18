@@ -10,172 +10,66 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link rel="shortcut icon" href="img/icon-1.png" /> 
-    <title> Portifólio</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <title> Home</title>
+    <link href="css/home.css" type="text/css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Notable|Mansalvas&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-            <div class="banner">
+            <h1 class="nome mt-5">Web Developer Jr.</h1>
 
-                   <!--   NAVBAR   -->
-                   <nav class="navbar navbar-expand-lg navbar-dark bg-ligth">
-                    <a class="navbar-brand" href="#"><img src="img/web-programming.png" width="30" height="30" alt=""> WEB DEV</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                      <span class="navbar-toggler-icon"></span>
+           
+    </header>
+
+    <div class="container-btn">
+            <button type="button" onclick="trocaPagina1()" class="btn  btn-outline-light my-2 mx-3" style="border: 0; background: transparent" >
+                    <figure>
+                            <p><img src="img/Rocket.svg"
+                              width="90" height="90"
+                              alt="btn1">
+                            <figcaption> Portifólio</figcaption>
+                          </figure>
+                </button>
+            
+            <button type="button" onclick="trocaPagina2()"  class="btn  btn-outline-light my-2 mx-3" style="border: 0; background: transparent">
+                    <figure>
+                            <p><img src="img/gears.png"
+                              width="90" height="90"
+                              alt="btn1">
+                            <figcaption> Tecnologias</figcaption>
+                          </figure>
+                </button>
+                <button type="button" onclick="trocaPagina3()"  class="btn  btn-outline-light my-2 mx-3" style="border: 0; background: transparent">
+                        <figure>
+                                <p><img src="img/suitcase.svg"
+                                  width="90" height="90"
+                                  alt="btn1">
+                                <figcaption> Sobre</figcaption>
+                              </figure>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <a class="nav-item nav-link" href="#">Portifólio</a>
-                                <a class="nav-item nav-link" href="#">Tecnologias</a>
-                                <a class="nav-item nav-link" href="#">Sobre</a>
-                                <a class="nav-item nav-link" href="#">Contato</a>
-                              </nav>
-                   </div>
-                   <!--   END NAVBAR    -->
-                  
-                   <h1>Desnevolvendo soluções práticas</h1>
-
-
-
-
-      </header>
-                  <!--    END HEADER    --> 
-
-
-                <!--     PORTIFOLIO     -->
-              <div class="container container-port">
-                <h1 class="display-4 port">Portifólio</h1>
-
-                  <div class="row"></div>
-                          <div class="card-group">
-                          <div class="col-md-3 col-sm-6">
-                                <div class="card mb-3 mt-2">
-                                  <div class="card-block">
-                                    <img src="img/giphy.gif" alt="img1" class="img-fluid">
-                                      <div class="card-body">
-                                      <h5 class="card-title">Site 1</h5>
-                                      <p class="card-text">exemplo</p>
-                                      <button type="button" class="btn btn-secondary">Visitar</button>
-                                   </div>
-                                </div>
-                            </div>
-                          </div>  
-                          <div class="col-md-3 col-sm-6">
-                              <div class="card mb-3 mt-2">
-                                <div class="card-block">
-                                  <img src="img/giphy.gif" alt="img1" class="img-fluid">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Site 2</h5>
-                                    <p class="card-text">exemplo</p>
-                                    <button type="button" class="btn btn-secondary">Visitar</button>
-                                 </div>
-                              </div>
-                          </div>
-                        </div>  
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card mb-3 mt-2">
-                              <div class="card-block">
-                                <img src="img/giphy.gif" alt="img1" class="img-fluid">
-                                  <div class="card-body">
-                                  <h5 class="card-title">Site 3</h5>
-                                  <p class="card-text">exemplo</p>
-                                  <button type="button" class="btn btn-secondary">Visitar</button>
-                               </div>
-                            </div>
-                        </div>
-                      </div>  
-                      <div class="col-md-3 col-sm-6">
-                          <div class="card mb-3 mt-2">
-                            <div class="card-block">
-                              <img src="img/giphy.gif" alt="img1" class="img-fluid">
-                                <div class="card-body">
-                                <h5 class="card-title">Site 4</h5>
-                                <p class="card-text">exemplo</p>
-                                <button type="button" class="btn btn-secondary">Visitar</button>
-                                </div>
-                              </div>
-                          </div>      
+                    <button type="button" onclick="trocaPagina4()"  class="btn btn-outline-light my-2 mx-3" style="border: 0; background: transparent">
+                            <figure>
+                                    <p><img src="img/support.svg"
+                                      width="90" height="90"
+                                      alt="btn1">
+                                    <figcaption> Contato</figcaption>
+                                  </figure>
+                        </button>
                       </div>
-                      
-                    </div>
-                  </div>
-              </div>
-              <!--    END PORTIFOLIO    -->
+
+      <div class="container-footer">
+        <footer>
+
+          <p class="copy"> &copy Copyright 2019</p>
+  
+         </footer>
+      </div>
 
 
-
-                      <!--    TECNOLOGIAS    -->
-                      
-                          <div class="container-fluid mb-5 mt-5">
-                              <h1 class="display-4">Tecnologias</h1>
-
-                            <button type="button" class="btn col-sm-auto"><img src="img/html-logo.svg" width="100px"alt="html"></button>
-                            <button type="button" class="btn col-sm-auto"><img src="img/css-logo.svg" width="100px" alt="Css"></button>
-                            <button type="button" class="btn col-sm-auto"><img src="img/javascript-logo.svg" width="100px" alt="JS"></button>
-                            <button type="button" class="btn col-sm-auto"><img src="img/bootstrap.png" width="100px" alt="Bootstrap"></button>
-                            <button type="button" class="btn col-sm-auto"><img src="img/sass.png" width="100px" alt="Sass"></button>
-                            <button type="button" class="btn col-sm-auto"><img src="img/sql.png" width="100px" alt="SQL"></button>
-                            <button type="button" class="btn col-sm-auto"><img src="img/SEO-Logo.png" width="120px" alt="SEO"></button>
-                           
-
-
-                        </div>
-                        <!--    END-TECNOLOGIAS    -->
-
-         
-                    <!--    SOBRE    -->
-                    <div class="sobre">
-                        <div class="container mt-5 mb-5">
-                            <dl class="row">
-                                <dt class="col-sm-3"> <img src="img/boss.png" height="200px" alt=""></dt>
-                                <dd class="col-sm-9"> 
-                                 <p> Renan Siquette </p>
-                                 <p> Desenvolvedor WEB </p> 
-                                 <p> Atuando desde 2018, desenvolvendo sistemas e sites para web</p>
-                                 <p> As melhores ferramentas e práticas de desenvolvimento,
-                                    para um serviço responsivo e agradável</p></dd>                       
-                                <dt class="col-sm-3">@Rsiquette</dt>
-                               
-                              
-                                
-                              </dl>
-                        </div>
-                    </div>
-                   
-                    <!--    END SOBRE    -->
-                    
-
-                    <!--   CONTATO   -->
-                    
-
-
-
-
-
-
-
-                    <!--   END-CONTATO   -->
-
-
-
-
- 
-    <footer> <!--FOOTER-->
-
-      <button type="button" class="btn col-sm-2"><img src="img/facebook.png" width="40px" alt=""></button>
-      <button type="button" class="btn col-sm-2"><img src="img/linkedin.png" width="40px" alt=""></button>
-   
-          <p> &copy Copyright 2019</p>
-        
-    </footer><!--END FOOTER-->
-
-
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+      <script src="/home.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-	
