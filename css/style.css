@@ -3,13 +3,24 @@
     padding:0;
     box-sizing: border-box;
 }
+
 body{
   background-image: url(../img/bg.jpg);
   background-size: cover;
-  font-weight: bold;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+
 }
+
+.navbar{
+  color: #fcfcfc;
+  
+}
+
 .banner{
    height: 100%;
+   z-index: -1;
 }
  
 
@@ -23,10 +34,12 @@ body{
  .col-md-3{
    color: #020202;
    font-weight: bold;
+   text-align: center;
  }
- .container-portifolio{
-   color: #020202;
 
+ .container-port h1{
+   color: #fcfcfc;
+   text-align: center;
  }
 
  .container-fluid{
@@ -34,15 +47,9 @@ body{
    font-weight: bold;
  }
 
-
  .container button{
    display: inline-block;
    border: none;
- }
-
- footer{
-   text-align: center;
-   color: #fcfcfc;
  }
 
  .container-fluid{
@@ -52,5 +59,10 @@ body{
  .sobre{
    color: white;
  }
+
+ footer{
+  text-align: center;
+  color: #fcfcfc;
+}
 
  
