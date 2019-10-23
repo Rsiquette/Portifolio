@@ -9,12 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link rel="shortcut icon" href="img/icon-1.png" /> 
+    <link rel="shortcut icon" href="img/icon-1.png"> 
     <title> Portifólio</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/tecnologias.css" type="text/css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Notable|Mansalvas&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
             <div class="banner">
 
@@ -37,23 +38,162 @@
 
 
         <!--    TECNOLOGIAS    -->
-            
-        
-             <div class="container-fluid mb-5 mt-5">
+        <div class="container-fluid mb-5 mt-5">
 
                     <h1 class="display-4">Tecnologias</h1><br><br>
 
-                <button type="button" class="btn col-sm-auto"><img src="img/html-logo.svg" width="100px"alt="html"></button>
-                <button type="button" class="btn col-sm-auto"><img src="img/css-logo.svg" width="100px" alt="Css"></button>
-                <button type="button" class="btn col-sm-auto"><img src="img/javascript-logo.svg" width="100px" alt="JS"></button>
-                <button type="button" class="btn col-sm-auto"><img src="img/bootstrap.png" width="100px" alt="Bootstrap"></button>
-                <button type="button" class="btn col-sm-auto"><img src="img/sass.png" width="100px" alt="Sass"></button>
-                <button type="button" class="btn col-sm-auto"><img src="img/sql.png" width="100px" alt="SQL"></button>
-                <button type="button" class="btn col-sm-auto"><img src="img/SEO-Logo.png" width="120px" alt="SEO"></button>
-                <button type="button" class="btn col-sm-auto"><img src="img/php.png" width="100px" alt="PHP"></button>
+                <!-- Botão para acionar modal -->
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#html"><img src="img/html-logo.svg" width="100px"alt="html"></button>
+        <div class="modal fade" id="html" tabindex="-1" role="dialog" aria-labelledby="htmllLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">HTML</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <p> HTML é uma abreviação de Hypertext Markup Language - Linguagem de Marcação de Hypertexto.
+                        Resumindo em uma frase: o HTML é uma linguagem para publicação de conteúdo (texto, imagem,
+                        vídeo, áudio e etc) na Web.</p>
 
+                </div>
             </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#css"><img src="img/css-logo.svg" width="100px" alt="Css"></button>      
+        <div class="modal fade" id="css" tabindex="-1" role="dialog" aria-labelledby="csslLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">CSS</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                       <p>.....</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#js"><img src="img/javascript-logo.svg" width="100px" alt="JS"></button>
+        <div class="modal fade" id="js" tabindex="-1" role="dialog" aria-labelledby="jslLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Javascript</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                       <p> ...</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#bootstrap"><img src="img/bootstrap.png" width="100px" alt="Bootstrap"></button>      
+        <div class="modal fade" id="bootstrap" tabindex="-1" role="dialog" aria-labelledby="bootstraplLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Bootstrap</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                       <p> ...</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#sass"><img src="img/sass.png" width="100px" alt="Sass"></button>       
+        <div class="modal fade" id="sass" tabindex="-1" role="dialog" aria-labelledby="sasslLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Sass</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                       <p> ....</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#sql"><img src="img/sql.png" width="100px" alt="SQL"></button>
+        <div class="modal fade" id="sql" tabindex="-1" role="dialog" aria-labelledby="sqllLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">MySQL</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                       <p> .....</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#seo"><img src="img/SEO-Logo.png" width="120px" alt="SEO"></button>
+        <div class="modal fade" id="seo" tabindex="-1" role="dialog" aria-labelledby="seolLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">SEO</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                       <p> .....</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <button type="button" class="btn col-sm-auto" data-toggle="modal" data-target="#php"><img src="img/php.png" width="100px" alt="PHP"></button>        
+        <div class="modal fade" id="php" tabindex="-1" role="dialog" aria-labelledby="phplLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">PHP</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                       <p> ...</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+
+            </div><!--FIM CONTAINER-FLUI-->
+
             <!--    END-TECNOLOGIAS    -->
+
+
 
             <br><br>
     <div class="container-footer">
